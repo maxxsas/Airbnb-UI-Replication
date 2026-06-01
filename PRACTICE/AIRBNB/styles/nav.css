@@ -260,10 +260,7 @@
 }
 
 
-.details-dates:hover + #v-line-1,
-.details-dates:hover + #v-line-2,
-
-{
+.details-dates:hover + #v-line-1 {
 
   display: none;
 }
