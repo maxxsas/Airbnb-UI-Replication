@@ -214,6 +214,10 @@
   border-radius: 200px;
 }
 
+.details-destination:hover + #v-line-1{
+  opacity: 0;
+}
+
 
 
 
@@ -231,6 +235,7 @@
   font-size: 14px;
   outline: none;
   background-color: #22222200;
+  width: 90%;
 }
 
 
@@ -255,7 +260,10 @@
 }
 
 
-.details-dates:hover + #v-line-2 {
+.details-dates:hover + #v-line-1,
+.details-dates:hover + #v-line-2,
+
+{
 
   display: none;
 }
