@@ -1,6 +1,39 @@
 
 .main-listings-container{
   background-color: gray;
-  width: 100%;
+  /* width: 100%; */
   height: 2000px;
+  padding: 40px 40px 40px 24px ;
+
+  
+}
+
+.listing-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: antiquewhite;
+  height: 1000px;
+}
+
+.listing-category-block{
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-category-block-header{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-group{
+display: flex;
+flex-direction: row;
+background-color: brown;
+}
+
+.listing-category-block-cards{
+background-color: blue;
+display: flex;
 }
