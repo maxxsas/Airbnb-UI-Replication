@@ -1,9 +1,9 @@
 
 .main-listings-container{
-  background-color: gray;
+  /* background-color: gray; */
   /* width: 100%; */
   height: 2000px;
-  padding: 40px 40px 40px 24px ;
+  padding: 40px 88px 40px 88px ;
 
   
 }
@@ -13,7 +13,7 @@
   flex-direction: column;
   /* display: grid;
   grid-template-rows: 1fr 1fr 1fr; */
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 100%;
   height: 1000px;
   
@@ -27,7 +27,7 @@
 }
 
 .listing-category-block-header{
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,7 +37,7 @@
 .title-group{
 display: flex;
 flex-direction: row;
-background-color: brown;
+/* background-color: brown; */
 align-items: center;
 gap: 12px;
 }
@@ -67,7 +67,7 @@ gap: 12px;
 }
 
 .listing-category-block-card-row{
-background-color: blue;
+/* background-color: blue; */
 display: flex;
 flex-direction: row;
 gap: 12px;
@@ -76,16 +76,54 @@ overflow-x: scroll;
 }
 
 .listing-card{
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
  
 }
 
 .listing-card-thumbnail{
-  height: 180px;
-  width: 180px;
-  border-radius: 24px;
+  height: 182px;
+  width: 182px;
+  border-radius: 22px;
   background-color: rgb(222, 222, 222);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
 }
+
+.property-photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.heads-up-badge{
+  background-color: rgba(255, 255, 255, 0.865);
+  color: #222222;
+  font-size: 12px;
+  padding: 6px 8px;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.143);
+  position: absolute;
+  z-index: 100;
+  top: 12px;
+  left: 12px;
+
+}
+
+.add-favourite-icon{
+  height: 28px;
+  
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
 
 .listing-card-description-block{
   display: flex;
