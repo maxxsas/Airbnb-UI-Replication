@@ -1,9 +1,10 @@
 
 .main-listings-container{
-  /* background-color: gray; */
-  /* width: 100%; */
-  height: 2000px;
-  padding: 40px 88px 40px 88px ;
+  /* background-color: rgb(226, 239, 224); */
+  background-color: rgb(255, 255, 255);
+  /* height: 2000px; */
+  padding: 60px 88px 88px 88px ;
+  display: flex;
 
   
 }
@@ -15,7 +16,8 @@
   grid-template-rows: 1fr 1fr 1fr; */
   /* background-color: antiquewhite; */
   width: 100%;
-  height: 1000px;
+  /* height: 1000px; */
+  gap: 72px;
   
 }
 
@@ -129,12 +131,13 @@ overflow-x: scroll;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  padding-left: 8px;
 }
 
 .listing-title {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 13px;
   color: #222222;
   font-weight: 600;
 
@@ -158,4 +161,15 @@ overflow-x: scroll;
 .listing-rating{
   font-size: 12px;
   color: gray;
+}
+
+
+/* ----------------------------------- */
+
+
+.footer-main-container{
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
 }
