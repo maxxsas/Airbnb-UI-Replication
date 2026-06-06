@@ -173,3 +173,8 @@ overflow-x: scroll;
   flex-direction: row;
   height: 300px;
 }
+
+.footer-top{
+  display: flex;
+  background-color: black;
+}
