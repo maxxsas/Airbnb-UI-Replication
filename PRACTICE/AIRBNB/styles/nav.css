@@ -65,7 +65,7 @@
 .experiences-category p{
   position: absolute;
   left: 40px;
-  top: 10px;
+  top: 24px;
   color: #828282;
 }
 
@@ -113,7 +113,7 @@
 .services-category p{
   position: absolute;
   left: 54px;
-  top: 10px;
+  top: 24px;
 }
 
 .services-category:hover p{

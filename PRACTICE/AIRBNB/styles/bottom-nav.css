@@ -50,18 +50,31 @@
 }
 
 
-.footer-bottom-half-container{
+.footer-middle-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: yellowgreen;
+
+}
+
+.footer-support{
+  flex: 1;
+}
+
+.footer-hosting{
+  flex: 1;
+}
+
+.footer-airbnb{
+  flex: 1;
 }
 
 
 .cities-main-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
-  margin-bottom: 100px;
+  gap: 28px;
+  /* margin-bottom: 100px; */
 }
 
 .city-and-offering{
@@ -83,4 +96,11 @@
 
 .city-property-offering:hover{
   color: #222222;
+}
+
+.footer-bottom-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #222222;
 }
