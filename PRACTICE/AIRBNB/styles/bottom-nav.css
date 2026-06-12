@@ -1,10 +1,10 @@
 
 .footer-main-container{
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   display: flex;
   flex-direction: column;
-  height: 300px;
-  padding: 40px;
+  /* height: 300px; */
+  /* padding: 40px; */
 
 }
 
@@ -54,11 +54,22 @@
   display: flex;
   flex-direction: row;
   background-color: yellowgreen;
+  margin-top: 100px;
 
 }
 
 .footer-support{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header{
+    font-weight: 600;
+}
+
+.list-items{
+    color: #222222;
 }
 
 .footer-hosting{
